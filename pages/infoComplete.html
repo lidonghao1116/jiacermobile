@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/mine.css">
+    <title>我的</title>
+
+</head>
+<body>
+  <header>
+     <a class="goBack" href=" "></a>
+     <h1>学员信息完整</h1>
+  </header>
+  <div class="info_banner">
+    <img src="../img/banner.png">
+  </div>
+  <div class="info_enter">
+    <h1>个人信息完善</h1>
+    <div class="info_list">
+      <label>真实姓名：</label>
+      <p><input type="text" name="username" value="" placeholder="请输入姓名"></p>
+    </div>
+    <div class="info_list">
+      <label>身份证号：</label>
+      <p><input type="text" name="certNo" value="" placeholder="请输入身份证号"></p>
+    </div>
+    <!--<div class="info_list">
+      <label>学历：</label>
+      <p class="selCertificate"><input type="text" name="" value="" readonly="readonly" placeholder="请选择学历"></p>
+    </div>-->
+  </div>
+  <div class="save">
+    <input type="button" name="" value="确定" id="confirm">
+  </div>
+
+  <div class="layer" style="display: none">
+    <div class="popup">
+        <h4>学历</h4>
+      <div class="education">
+        <div>小学</div>
+        <div>初中</div>
+        <div>高中</div>
+        <div>中专</div>
+        <div>大专</div>
+        <div>大学本科</div>
+        <div>硕士研究生</div>
+        <div>大专</div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/jquery-3.1.1.min.js"></script>
+  <script src="../js/jquery.toast.js"></script>
+  <script src="../components/vendor/utils/map.js"></script>
+  <script src="../components/vendor/utils/mapping.js"></script>
+  <script src="../components/vendor/utils/common.js"></script>
+  <script src="../components/vendor/mine/myInfo.js"></script>
+  <script type="text/javascript">
+  </script>
+</body>
+</html>

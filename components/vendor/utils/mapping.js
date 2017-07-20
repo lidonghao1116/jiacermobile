@@ -1,0 +1,40 @@
+/**
+ * Created by Administrator on 2016/1/18.
+ */
+//var publicPath=window.location.host.indexOf("localhost")>-1?"http://www.jiacer.com/jiacerapps":"http://"+window.location.host+"/jiacerapps";
+  var publicPath = "http://" + window.location.host + "/jiacerapps";
+  window.global_config = {
+    login: publicPath + "/api/user/login",
+    logout: publicPath + "/api/user/logout",
+    userLearnTypes: publicPath + "/api/videos/types",
+    userTypeChapters: publicPath + "/api/videos/typeChapter",
+    userVideos: publicPath + "/api/videos/list",
+    questions: publicPath + "/api/course/online/test",
+    saveAnswer: publicPath + "/api/questions/save",
+    getScore: publicPath + "/api/questions/getUserScore",
+    getAnswerSheet: publicPath + "/api/questions/getAnswerSheet",
+    getQWDetails: publicPath + "/api/questions/getQWDetails",
+    registerBind: publicPath + "/api/user/register/bind",
+    registerComplete: publicPath + "/api/common/register/complete",
+    enrolled: publicPath + "/api/courseLearn/enrolled",
+    recommend: publicPath + "/api/courseLearn/recommend",
+    recommendOnline: publicPath + "/api/course/online/recommand",
+    courseTimes: publicPath + "/api/courseLearn/courseTimes",
+    applyOrders: publicPath + "/api/courseLearn/apply",
+    getCaptchaCode: publicPath + "/api/common/captcha",
+    registerSmsCode: publicPath + "/api/common/sms/code",
+    courseInfo: publicPath + "/api/course/online/video",
+    courseOwn: publicPath + "/api/course/online/own",
+    allChapters: publicPath + "/api/videos/allChapters",
+    userInfo: publicPath + "/api/userInfo/info",
+    test: publicPath + "/api/course/online/test",
+    redEnvelope: publicPath + "/api/redpack/send",
+    userLearnRecords: publicPath + "/api/userInfo/learnRecords",
+    prepay: publicPath + "/api/trade/prepay",
+    weChatPay:'https://pay.swiftpass.cn/pay/jspay',
+    getAllScore:publicPath + "/api/questions/getUserAllScore",
+    examInfo:publicPath + "/api/course/online/info",
+    update:publicPath + "/api/userInfo/update",
+    myCertificate:publicPath + "/api/userInfo/cert",
+    school:publicPath + "/api/school",
+  };

@@ -1,0 +1,4 @@
+localStorage.setItem("wx-openid", 'oC1aRuNQaqpMG9Dmr1U1LWsZDtI0');
+    localStorage.setItem("invite-code", 'tCxJQs');
+
+

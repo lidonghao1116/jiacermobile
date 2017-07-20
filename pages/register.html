@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/global.css">
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
+    <title>学员注册</title>
+</head>
+<body>
+<header>
+    <h1>手机验证</h1>
+</header>
+<div class="register_info_box">
+    <div class="register_info">
+        <label>手机号</label>
+        <div class="phone">
+            <input type="text" name="phone" value="" placeholder="请输入手机号" id="phone" maxlength="11">
+        </div>
+    </div>
+    <div class="register_info">
+        <label>图形码</label>
+        <div class="img_code">
+            <input type="text" name="imgCode" value="" placeholder="请输入右侧图形码" id="iptImgCode" maxlength="16">
+            <img src="" alt="" id="imgCode">
+        </div>
+    </div>
+    <div class="register_info">
+        <label>验证码</label>
+        <div class="message_code">
+            <input type="text" name="sms" value="" placeholder="请输入短信验证码" maxlength="6" id="message">
+            <button type="button" name="button" disabled="disabled" id="captcha">获取验证码</button>
+        </div>
+    </div>
+</div>
+<div class="register_bt">
+    <input type="button" name="" value="开始" disabled="disabled" id="btnStart">
+    <p>点击开始，即表示已阅读并同意 <a href="agreement.html" class="read">《用户服务协议》</a></p>
+</div>
+<!--协议-->
+</body>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.js' charset='utf-8'></script>
+<script src="/components/vendor/utils/map.js"></script>
+<script src="/components/vendor/utils/mapping.js"></script>
+<script src="/components/vendor/utils/common.js"></script>
+<script src="/components/vendor/register/register.js"></script>
+</html>
